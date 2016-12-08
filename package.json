@@ -1,27 +1,27 @@
 {
-  "name": "abacus-paddle",
-  "version": "0.0.5",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha",
-    "bump": "npm version patch -m 'version bump' && git push && npm publish"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/danm/paddle.git"
-  },
-  "author": "Daniel Morrison <daniel.morrison@bbc.co.uk>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/danm/paddle/issues"
-  },
-  "homepage": "https://github.com/danm/paddle#readme",
-  "dependencies": {
-    "aws-sdk": "^2.7.12",
-    "express": "^4.14.0",
-    "logback": "^1.0.3",
-    "request": "^2.79.0",
-    "s3-upload-stream": "^1.0.7"
-  }
+    "name": "abacus-paddle",
+    "version": "0.0.5",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha",
+        "bump": "npm version patch -m 'version bump' && git push && npm publish"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/danm/paddle.git"
+    },
+    "author": "Daniel Morrison <daniel.morrison@bbc.co.uk>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/danm/paddle/issues"
+    },
+    "homepage": "https://github.com/danm/paddle#readme",
+    "dependencies": {
+        "aws-sdk": "^2.7.12",
+        "express": "^4.14.0",
+        "logback": "~1.0.3",
+        "request": "^2.79.0",
+        "s3-upload-stream": "^1.0.7"
+    }
 }
