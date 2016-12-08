@@ -1,0 +1,8 @@
+{
+    "name": "data-puddle-service-list",
+    "services": [{
+        "site": "",
+        "eventfilter": "",
+        "extralabels": ""
+    }]
+}
