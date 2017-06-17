@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "plugin:flowtype/recommended",
+    "airbnb"
+  ],
+  "plugins": [
+    "flowtype"
+  ],
+  "rules": {
+    "no-underscore-dangle": 0,
+    "no-console": 0,
+    "no-param-reassign": 0
+  },
+  "settings": {
+    "flowtype": {
+        "onlyFilesWithFlowAnnotation": true
+    }
+  }
+}

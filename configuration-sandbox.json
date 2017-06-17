@@ -1,0 +1,40 @@
+{
+    "port": 3000,
+    "service": "https://s3-eu-west-1.amazonaws.com/puddle-status.tools.bbc.co.uk/",
+    "s3": {
+        "bucket": "puddle-csv.tools.bbc.co.uk",
+        "region": "eu-west-1",
+        "accessKeyId": "AKIAJUJMTZLOJIH6SWPQ",
+        "secretAccessKey": "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"
+    },
+    "dax": {
+        "url": "https://dax-livedata.comscore.eu",
+        "corporate": "bbc",
+        "user": "morrid76-api",
+        "password": "2BnpFdq2P"
+    },
+    "output": {
+        "sqs": {
+            "url": "https://sqs.eu-west-1.amazonaws.com/522682236448/puddle-csv-test",
+            "region": "eu-west-1",
+            "accessKeyId": "AKIAJUJMTZLOJIH6SWPQ",
+            "secretAccessKey": "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"
+        }
+    },
+    "logback": {
+        "elastic": {
+            "endpoint": "https://search-abacus-logback-46ufuehmezet6hkrpkp3opdbpm.eu-west-1.es.amazonaws.com/logback",
+            "level": 0
+        },
+        "sqs": {
+            "level": 3,
+            "region": "eu-west-1",
+            "queueUrl": "https://sqs.eu-west-1.amazonaws.com/522682236448/logback-paddle-prod-errors",
+            "accessKeyId": "AKIAJUJMTZLOJIH6SWPQ",
+            "secretAccessKey": "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"
+        },
+        "stdout": {
+            "level": 0
+        }
+    }
+}

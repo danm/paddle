@@ -1,0 +1,13 @@
+{
+    "window.zoomLevel": 0,
+    "javascript.validate.enable": false,
+    "eslint.enable": true
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.iconTheme": "vscode-icons",
+    "files.associations": {
+      "*.jsx": "typescriptreact",
+      "*.js": "javascript"
+    },
+    "editor.tabSize": 2,
+    "miramac.node.nodeBin": "/Users/Darwin/.nodenv/versions/8.0.0/bin/node"
+  }
