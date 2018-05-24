@@ -11,7 +11,8 @@
         "url": "https://dax-livedata.comscore.eu",
         "corporate": "bbc",
         "user": "morrid76-api",
-        "password": "2BnpFdq2P"
+        "password": "2BnpFdq2P",
+        "maxlines": "50000"
     },
     "output": {
         "sqs": {
